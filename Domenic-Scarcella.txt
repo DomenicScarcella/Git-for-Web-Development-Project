@@ -140,25 +140,41 @@ https://codepen.io/domenicscarcella/pen/mdrzqEM?editors=1100
 
     34. Why should I use version control?
 
-	
+	it allows you to keep a record of prior versions for reference or to revert to an earlier point.
  
     35. How often should I commit to github?
 
-	
+	whenever you make important changes.
 
     36. What is the command we would use to push our repo up to github? 
 
-	
+	git push -u origin
 
     37. Walk me through Lambda's git flow. 
 
-	
+	we create our branch copy by forking, cloning into our computer in a specific folder we've created for it, and naming it properly.  When ready to upload changes, we add, commit, push to GitHub, where we can create a pull request and submit our assignment link.
 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
+	blocks are bullies that push around content in the display, while inlines are ninjas that give content its aspects without necessarily moving other content around the display.
+
     2. What happens when an element is positioned absolutely? 
+
+	its position is determined by the position of its parent element
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+	set the width and let the height vary proportionally with the width.
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+	block . . . header, footer, section
+	inline . . . a, span
+	inline-block . . . img
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+	box model refers to the fact that every element can have a margin, border and padding around the content, as if it were packaged in a box.  The "display: flex" property value will allow elements to follow the best fit for the available width.
